@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* shared styles  */
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    background-color: #E6533C;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+/* navbar styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h3{
+    font-weight: 900;
+    font-size: 2.25rem;
+    color: #E6533C;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    border: 1px solid rgba(64, 62, 62, 0.886);
+    border-radius: 30px;
+    padding: 10px 20px 10px 0;
+}
+
+.list-items, .list-name {
+    list-style: none;
+    text-decoration: none;
+}
